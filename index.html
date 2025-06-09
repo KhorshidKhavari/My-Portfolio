@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal-Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <input type="checkbox" id="theme-toggle" hidden>
+    <div class="container"> 
+        <header>
+ <!--It's the navigation bar-->
+                <nav class="navbar"> 
+                    <div class="logo">KH</div> 
+                    
+                    <input type="checkbox" id="menu-toggle">
+                    <label for="menu-toggle" class="menu-icon">
+                        <i class="fas fa-bars open-icon"></i>
+                        <i class="fas fa-times close-icon"></i>
+                    </label>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">My Projects</a></li>
+                        <li><a href="#contact">Get in touch</a></li>                   
+                        
+                        <li>                               
+                            <label for="theme-toggle" class="theme-icon">                          
+                                <i class="fas fa-sun"></i>
+                                <i class="fas fa-moon"></i>
+                            </label> 
+                        </li>
+                    </ul>                       
+                </nav>                
+        </header>
+        <main>
+<!--Hero section--> 
+            <section id="home" class="hero">  
+                    <div class="hero-left">
+                        <h1>Hi👋, there!</h1>
+                        <h2>Welcome to my creative corner.</h2>
+                        <p>I'm Khorshid Khavari, a creative mind exploring the world of web design. This is my space to share my journal, my growth, and the projects along the way. Scroll down and let's build something beautiful together.</p> 
+                        <div class="hero-btn">
+                            <a href="path/to/your/cv.pdf" class="btn-download" download="Your_CV.pdf">Download CV</a>
+                            <a href="#about" class="btn">Learn more</a>  
+                        </div>
+                        
+                    </div>
+                    <div class="hero-right">
+                        <img src="./img/ChatGPT Image Jun 3, 2025, 06_11_46 PM.png" alt="My portrait" class="profile-img">
+                    </div> 
+            </section>
+<!--About Me section-->
+            <section class="about-me" id="about">
+                <h1>About Me</h1>
+                <div class="about-grid">
+                    <div class="about-img">
+                       <img src="./img/ChatGPT Image Jun 2, 2025, 07_19_55 PM.png" alt="">
+                    </div>
+                    <div class="bio">
+                       <p>Hello! I'm Khorshid Khavari, a 22-year-old Economics student with a keen eye for detail and ploblem-solving, who has resently discovered a passion for web design and development, embracing the challenge of transforming ideas into functional and aesthetically pleasing digital experiences. Driven by a desire to combine analytical thinking with creative execution, I'm actively building my skills in semantic HTML, responsive CSS, and interactive JavaScript to craft user-centric and visually appealing web solutions.</p>
+                    </div>
+                </div>
+               
+                <div class="info-grid">
+                    <div class="card skills">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li><span class="line html"></span>HTML</li>
+                            <li><span class="line css"></span>CSS</li>
+                            <li><span class="line js"></span>JavaScript</li>
+                            <li><span class="line icdl"></span>ICDL</li>
+                        </ul>
+                        
+                    </div>
+                    <div class="card languages">
+                        <h2>Languages</h2>
+                        <ul>
+                            <li><i class="fa-solid fa-check-circle" style="margin-right: 10px;"></i>Dari (Native)</li>
+                            <li><i class="fa-solid fa-check-circle" style="margin-right: 10px;"></i>English (Fluent)</li>
+                            <li><i class="fa-solid fa-check-circle" style="margin-right: 10px;"></i>German (Beginner)</li>
+                        </ul>
+                    </div>
+                    <div class="card education">
+                        <h2>Education</h2>
+                        <p>Economics, Bachelor's Degree (Currently)</p>
+                        <ul>
+                            <li>Ferdowsi University of Mashhad</li>
+                        </ul>
+                        <p>Web Design Training (Currently)</p>
+                        <ul>
+                            <li>CTI</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+ <!--My projects section-->
+            <section id="projects" class="my-projects">
+                <h1>My Projects</h1>               
+               <div class="projects-container">
+                <div class="card-project">
+                    <img src="./img/screencapture-khorshidkhavari-github-io-My-movie-theater-website-2025-06-01-23_59_10.jpg" >
+                    <div class="card-overlay">                   
+                    <h3>My-Movie-Theater</h3>
+                    <p>A responsive website for a fictional movie theater. Built using HTML and CSS wueh a dark theme, custom fonts, and stylish showtime layout. It simulated a real world booking interface.</p>
+                    <a href="https://khorshidkhavari.github.io/My-movie-theater-website/" class="view-btn" target="_blank" rel="noopener noreferrer">View</a>                  
+                    </div>
+                </div>
+                <div class="card-project">
+                    <img src="./img/screencapture-khorshidkhavari-github-io-Afghan-cities-cultural-2025-06-02-00_04_22.jpg" >
+                    <div class="card-overlay">               
+                    <h3>Afghan Cities-Cultural</h3>
+                    <p>A cultural showcase site exploring major cities in Afghanistan. Designed using HTML and CSS, it uses grids and animations to present historical landmarks, traditions, and local beauty.</p>                 
+                    <a href="https://khorshidkhavari.github.io/Afghan-cities-cultural/" class="view-btn" target="_blank" rel="noopener noreferrer">View</a>                                       
+                    </div>
+                </div>
+                <div class="card-project">
+                     <img src="./img/screencapture-file-C-Users-Premier-computer-Desktop-Tastybite-hub-index-html-2025-06-03-19_14_19.jpg">
+                     <div class="card-overlay">                  
+                    <h3>Tastybites Hub</h3>
+                    <p>A food themed hompage for browsing delicious meals. Created with HTML and CSS featuring a clean layout, warm colors to highlight different food sections.</p>
+                    <a href="https://khorshidkhavari.github.io/TastyBite-Hub/" class="view-btn" target="_blank" rel="noopener noreferrer">View</a>                  
+                    </div>
+                </div>    
+               </div>
+            </section>
+ <!--Get in touch section-->
+            <section id="contact">
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h2>Info</h2>
+                        <p><i class="fa fa-map-marker" style="margin-right: 15px;"></i> Iran, Mashhad</p>
+                        <p><i class="fa fa-envelope" style="margin-right: 15px;"></i> khavari.khorshid@gmail.com</p>
+                        <p><i class="fa fa-phone" style="margin-right: 15px;"></i> +98 933 297 1247</p>
+                        <div class="social-links">
+                            <a href="https://github.com/KhorshidKhavari" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://twitter.com/KhavariKhorshid" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://instagram.com/khorosh_id" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="contact-form">
+                        <h2>Get in Touch</h2>
+                        <p>Feel free to drop us a line below!</p>
+                        <form action="khorshid.khavar82@gmail.com">       
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea name="message" id="message" placeholder="Message here..." required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                    </div>                    
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy 2025 created by Khorshid Khavari
+            </p>
+        </footer>      
+    </div>
+</body>
+</html>
